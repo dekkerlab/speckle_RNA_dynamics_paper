@@ -1,0 +1,12 @@
+name: LOS-env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python
+  - r-base
+  - r-argparse
+  - pip
+  - pip:
+      - cooler
+      - bioframe
