@@ -16,7 +16,7 @@ dTAG conditions, heat shock).
 
 ## Input data
 
-The ladder and sample traces are hosted on Zenodo — DOI *(add DOI here)*. Download
+The ladder and sample traces are hosted on Zenodo. Download
 and unzip the two archives so that a `ladders/` and a `samples/` folder sit
 together in one data directory:
 
