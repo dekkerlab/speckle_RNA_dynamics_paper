@@ -2,14 +2,14 @@ name: imaging_analysis-env
 channels:
   - conda-forge
 dependencies:
-  - python
-  - pip
+  - python=3.14.7
+  - pip=26.2.1
   - pip:
-      - readlif
-      - scikit-image
-      - pandas
-      - matplotlib
-      - jupyterlab
-      - notebook
-      - ipykernel
-      - ipywidgets
+      - readlif==0.6.6
+      - scikit-image==0.26.0
+      - pandas==3.0.5
+      - matplotlib==3.11.1
+      - jupyterlab==4.6.3
+      - notebook==7.6.2 
+      - ipykernel==7.3.0
+      - ipywidgets==8.1.9
