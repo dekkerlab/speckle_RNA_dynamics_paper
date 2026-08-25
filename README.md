@@ -17,7 +17,7 @@ data in a similar manner to that done using Agilent PROsize software.
 ## Data availability
 
 - **Sequencing data (LC-Hi-C, DpnII-seq, SLAM-seq):** GEO accession *tbd*.
-- Instruction to download test coolers are found in the **LCHiC** directory
+- Instruction to download test coolers and DpnII-seq data are found in the **LCHiC** directory
 - Instruction to download Fragment Analyzer data are found in the **FA_traces** directory
 
 ## Citation
