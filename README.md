@@ -24,5 +24,4 @@ data in a similar manner to that done using Agilent PROsize software.
 
 ## License
 
-*(No license file is currently present — add one, e.g. MIT, so others know how
-they may reuse the code.)*
+[MIT License](LICENSE)
