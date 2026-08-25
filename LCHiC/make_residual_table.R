@@ -21,7 +21,7 @@ bins <- bins[order(bins$chrom, bins$start,bins$end),]
 rownames(bins) <- NULL
 
 
-eigen <- read.table(paste("C:/Users/lafon/UMass Medical School Dropbox/Denis Lafontaine/UmassMed/Dekker/Sequencing/Analysis/20250129_Mega_maps_hg38/analysis/eigen/DL-20250129-LCHCSeq-K562-mega120mPD-Mock-R12-T1__hg38.", resolution,".eigs.cis.vecs.txt",sep=""),
+eigen <- read.table("C:/Users/lafon/UMass Medical School Dropbox/Denis Lafontaine/UmassMed/Dekker/Sequencing/Analysis/20250129_Mega_maps_hg38/analysis/eigen/K562_hg38.50kb.eigs.cis.vecs.txt",
                    sep="\t", header=TRUE)
 eigen <- eigen[ - grep("chrY", eigen$chrom),]
 eigen <- eigen[ - grep("chrM", eigen$chrom),]
