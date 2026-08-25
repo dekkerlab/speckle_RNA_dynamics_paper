@@ -15,29 +15,17 @@ conda env create -f <enter appropriate environment.yaml>
 conda activate <env_name>
 ```
 
-Typical installation of software and dependencies should take a few minutes. All figures generated in **R** list their required packages at the top of each script, so no separate R 
-environment file is provided — install the packages named in the relevant `Fig_*/*.R` script.
+Typical installation of software and dependencies should take a few minutes. Run time for figure generation 
+depends on the analysis. While most plots can be generated within a few minutes, operations involving scaling
+or calculating expected interactions can take 10-15minutes or more. All figures generated in **R Studio** list 
+their required packages at the top of each script, so no separate R environment file is provided — install the 
+packages named in the relevant `Fig_*/*.R` script.
 
 ---
 
-As shown in the **LCHiC** directory, a small test dataset on Zenodo lets you run the core LC-Hi-C pipeline — from
-balanced coolers to a genome-wide **LOS** (Loss of Structure) track — without the full GEO deposit. The test 
-coolers are the genome-wide K562 LC-Hi-C maps reduced to two resolutions (50 kb, 250 kb) with their original 
-genome-wide balancing weights preserved, so values match the full data. Heatmaps and stacks can be plotted directly 
+As shown in the **LCHiC** directory, a small test dataset on Zenodo lets you run the core LC-Hi-C pipeline to 
+generate LOS and LOS residuals from balanced coolers. Most heatmaps and stacks can be plotted directly 
 using these test coolers. 
-
-
-**1. Download the test data** (Zenodo DOI *(add concept DOI)*):
-
-```bash
-mkdir -p demo/data
-curl -L --fail -o demo/data/K562_notreat_LCHiC_2hPD_FA_DpnII_BR1.demo.mcool \
-  "https://zenodo.org/records/<RECORD_ID>/files/K562_notreat_LCHiC_2hPD_FA_DpnII_BR1.demo.mcool?download=1"
-curl -L --fail -o demo/data/K562_notreat_LCHiC_2hPD_FA_Mock_BR1.demo.mcool \
-  "https://zenodo.org/records/<RECORD_ID>/files/K562_notreat_LCHiC_2hPD_FA_Mock_BR1.demo.mcool?download=1"
-```
-
-
 
 ### Figure sub-directories (brief)
 
@@ -49,5 +37,5 @@ curl -L --fail -o demo/data/K562_notreat_LCHiC_2hPD_FA_Mock_BR1.demo.mcool \
 - **Fig_6** — cCRE and scaled gene-body pileups/stackups over LOS bigWigs (`bbi.stackup`).
 - **ED_Fig_5** — GO enrichment (`clusterProfiler`).
 
-> **Paths:** many scripts contain hard-coded absolute paths to the original
-> analysis environment; edit them to point at your own data before rerunning.
+> **Paths and File names** many scripts contain hard-coded absolute paths and alternate file names; edit them to point to your
+> own data before rerunning.
