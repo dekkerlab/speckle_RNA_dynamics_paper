@@ -14,6 +14,9 @@ dTAG conditions, heat shock).
 
 **Requires:** R with `tidyverse`, `stringr`, `RColorBrewer`, `paletteer`.
 
+Typical installation of software and dependencies should take a few minutes. Run 
+time to generate plots should take a few minutes.
+
 ## Input data
 
 The ladder and sample traces are hosted on Zenodo. Download
