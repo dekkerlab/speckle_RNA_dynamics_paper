@@ -3,10 +3,10 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python
-  - r-base
-  - r-argparse
-  - pip
+  - python=3.14.7
+  - r-base=4.5.3
+  - r-argparse=2.3.1
+  - pip=26.2.1
   - pip:
-      - cooler
-      - bioframe
+      - cooler==0.10.4
+      - bioframe==0.8.0 
