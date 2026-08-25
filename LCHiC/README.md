@@ -1,5 +1,7 @@
 # Liquid Chromatin Hi-C (LC-Hi-C) Analysis
 
+Note that this workflow is an adaptation/update of [https://github.com/tborrman/liquid-chromatin-Hi-C](https://github.com/tborrman/liquid-chromatin-Hi-C)
+
 ## Installation
 
 Packages needed to generate cis-percent  and LOS are included in the provided conda
