@@ -15,7 +15,7 @@ conda env create -f <enter appropriate environment.yaml>
 conda activate <env_name>
 ```
 
-All figures generated in **R** list their required packages at the top of each script, so no separate R 
+Typical installation of software and dependencies should take a few minutes. All figures generated in **R** list their required packages at the top of each script, so no separate R 
 environment file is provided — install the packages named in the relevant `Fig_*/*.R` script.
 
 ---
