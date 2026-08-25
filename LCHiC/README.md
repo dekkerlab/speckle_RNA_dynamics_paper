@@ -14,7 +14,8 @@ conda activate LOS-env
 
 This installs Python, R, `r-argparse`, and (via pip) `cooler` and `bioframe`.
 
-This environment is sufficient for the demo pipeline (cis-percent + LOS).
+This environment is sufficient for the demo pipeline (cis-percent + LOS). Typical installation of software and dependencies should take a few minutes. Run 
+time for calculating cis_percent, LOS and LOSresiduals should be within a minute per sample set.
 
 ---
 
