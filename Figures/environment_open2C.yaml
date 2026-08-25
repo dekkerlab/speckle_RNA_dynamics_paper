@@ -1,18 +1,18 @@
-name: open2CTEST-env
+name: open2C-env
 channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python=3.10
-  - pip
-  - notebook
-  - jupyterlab
-  - cooler
-  - cooltools
-  - bioframe
-  - pybigwig
-  - numpy
-  - pandas
-  - pybbi
-  - matplotlib
-  - seaborn
+  - python=3.10.21
+  - pip=26.2.1
+  - notebook=7.6.2
+  - jupyterlab=4.6.3
+  - cooler=0.10.4 
+  - cooltools=0.7.1
+  - bioframe=0.8.0
+  - pybigwig=0.3.22
+  - numpy=1.26.4
+  - pandas=2.3.3
+  - pybbi=0.4.2
+  - matplotlib=3.10.9
+  - seaborn=0.13.2
